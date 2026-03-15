@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Technoblade",
+    "username": "camman18",
     "password": "",
     "type": "offline"
   },
@@ -9,7 +9,7 @@
     "ip": "Cheaap.aternos.me",
     "port": 37900,
     "version": "",
-    "try-creative": true
+    "try-creative": false
   },
   "position": {
     "enabled": true,
@@ -31,7 +31,7 @@
       "repeat": true,
       "repeat-delay": 50000,
       "messages": [
-        "I'm a regular player",
+        "I'm Short!",
         "I am a BOT!",
         "I like to play Minecraft!"
       ]
@@ -54,7 +54,7 @@
       "speed": 3000
     },
     "look-around": {
-      "enabled": false,
+      "enabled": truw,
       "interval": 5000
     },
     "random-jump": {
@@ -65,7 +65,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -79,7 +79,7 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "https://discord.com/api/webhooks/1482713866306588713/h7FYk50sd3aUm8jWlBDNXGGq6wdoMN5Qw-2m3T_UolNAV-kyJO87Hd2py2dUwGhdqCD_",
     "events": {
       "connect": true,
       "disconnect": true,
