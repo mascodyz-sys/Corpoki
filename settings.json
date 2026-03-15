@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "camman18",
+    "username": "imgonnacream",
     "password": "",
     "type": "offline"
   },
@@ -13,48 +13,48 @@
   },
   "position": {
     "enabled": true,
-    "x": -11110,
-    "y": 1000000,
-    "z": 2222
+    "x": 0,
+    "y": 100,
+    "z": 0
   },
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "6767"
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
-      "repeat-delay": 50000,
+      "repeat-delay": 300,
       "messages": [
-        "I'm Short!",
-        "I am a BOT!",
+        "I'm a regular player",
+        "Hehe boy!",
         "I like to play Minecraft!"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 1200,
+    "max-reconnect-delay": 120000,
     "periodic-rejoin": {
-      "enabled": true
+      "enabled": false,
       "min-interval": 20,
       "max-interval": 60
     }
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": truw,
+      "enabled": true,
       "interval": 5000
     },
     "random-jump": {
@@ -65,7 +65,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": true,
+    "beds": false,
     "chat": true,
     "console-commands": true
   },
