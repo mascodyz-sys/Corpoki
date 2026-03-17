@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "corpokiserver.falixsrv.me",
-    "port": 20093,
+    "ip": "157.180.102.182",
+    "port": 28663,
     "version": "",
     "try-creative": false
   },
