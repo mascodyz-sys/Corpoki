@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "Cheaap.aternos.me",
-    "port": 37900,
+    "ip": "corpokiserver.falixsrv.me",
+    "port": 20093,
     "version": "",
     "try-creative": false
   },
